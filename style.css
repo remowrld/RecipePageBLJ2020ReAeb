@@ -16,6 +16,14 @@ body {
     margin-top: 2em;
 }
 
+#pic2 {
+    background: url(pics/HFSF6298.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 2em;
+}
+
 .bakeButton {
     margin-top: 2em;
     text-align: center;
@@ -27,4 +35,134 @@ body {
 
 .bakeButton:hover {
     text-decoration: none;
+}
+
+.picDesc {
+    margin-top: 2em;
+    font-size: 2em;
+    background-color: #8D7559;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+#pic3 {
+    background: url(pics/IMG_0298.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+.nextButton {
+    font-size: 2em;
+    background-color: #D4AB7A;
+    text-decoration: none;
+    color: black;
+    size: 3em;
+    border-radius: 20%;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#pic4 {
+    background: url(pics/IMG_0302.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic5 {
+    background: url(pics/IMG_0304.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic6 {
+    background: url(pics/IMG_0305.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic7 {
+    background: url(pics/IMG_0306.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic8 {
+    background: url(pics/IMG_0307.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic9 {
+    background: url(pics/IMG_0313.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic10 {
+    background: url(pics/IMG_0311.JPG);
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: -100rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
+}
+
+#pic11 {
+    background: url(pics/IMG_0315.JPG);
+    margin-top: -13em;
+    height: 25vw; 
+    z-index: -1;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: solid 2px black;
+    display: block;
 }
