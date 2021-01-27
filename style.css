@@ -2,7 +2,29 @@ body {
     background-color: #F6E2CA;
 }
 
-.box {
-    width: 100px;
-    background-color: black;
+.ingredientsContainer, .allergiesInfo {
+    margin-top: 2em;
+    background-color: #8D7559;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.torteDone {
+    background: url(pics/ASPP9898.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 2em;
+}
+
+.bakeButton {
+    margin-top: 2em;
+    text-align: center;
+    background-color: #D4AB7A;
+    border-radius: 40%;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.bakeButton:hover {
+    text-decoration: none;
 }

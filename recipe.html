@@ -1,86 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe</title>
-
-    <!-- Google Fonts -->
-
-    <!-- Bootstrap -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js%22%3E</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js%22%3E</script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js%22%3E</script>
-
-    <!-- CSS Imports -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Ovo Schoggimouse-Torte</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
-    </header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-1">
-          <h3>Ingrediens</h3>
-          <h5>Filling</h5>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo&family=Didact+Gothic&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>titel</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: #CDB69B;">
+      <a class="navbar-brand" href="#">Ovo Schoggimousse-Torte</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Impressum</a>
+          <a class="nav-item nav-link" href="#">Download</a>
         </div>
       </div>
-        <div class="row">
-            <div class="col-lg-1"></div>
-              <div class="col-lg-1">
-                <p>150g</p>
-                <p>5dl</p>
-                </div>
-                <div class="row">
-                  <div class="col-lg-1"></div>
-                    <div class="col-lg-1">
-                <h5>Biscuit</h5>
-                </div>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-1">
-                <p>100g</p>
-                <p>50g</p>
-                <p>5</p>
-                <p>100g</p>
-                <p>100g</p>
-                <p>50g</p>
-                <p>1TS</p>
-                <p>1 pinch</p>
-                </div>
-              </div>
-              <div class="col-lg-3">
-                <p>Ovomaltine Chocolate</p>
-                <p>cream</p>
-                </div>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 ingredientsContainer">
+         <h3><b>Ingredients</b></h3>
+         <h6><b>Filling</b></h6>
+         <p>150g Ovomaltine Chocolate</p>
+         <p>5dl Cream</p> 
+         <h6><b>Biscuit</b></h6>
+         <p>100g Ovomaltine Dark Chocolate</p>
+         <p>50g Butter</p>
+         <p>5 Eggs</p>
+         <p>100g Flour</p>
+         <p>50g ground almonds</p>
+         <p>1TS baking bowder</p>
+         <p>1 pinchsalt</p>
+         <p></p>
+         <h6><b>Decoration</b></h6>
+         <p>Chocolate Chips</p>
         </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-8 torteDone"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 bakeButton">
+          <a href="sites/step1.html" style="color: #735D42;">Bake</a>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-3 allergiesInfo">
+          <p>bismillah</p>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
